@@ -1,14 +1,12 @@
 import 'onsenui';
 import Vue from 'vue';
-import VueOnsen from 'vue-onsenui';
-
-// Onsen UI Styling and Icons
-require('onsenui/css-components-src/src/onsen-css-components.css');
-require('onsenui/css/onsenui.css');
+import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css'
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 import App from './App.vue';
 
-Vue.use(VueOnsen);
+Vue.use(Vuetify);
 
 new Vue({
   el: '#app',
